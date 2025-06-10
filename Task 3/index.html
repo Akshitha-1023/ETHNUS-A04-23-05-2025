@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Formatting using Inline CSS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        
+        h1 {
+            color: white;
+            background-color: #8B0000; /* Dark red background */
+            margin: 0;
+            padding: 20px;
+            text-align: left; /* Left-aligned text */
+            font-size: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .box {
+            width: 100%;
+            padding: 25px;
+            box-sizing: border-box;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        #box1 {
+            background-color: #FF8C00; /* Orange */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        #box2 {
+            background-color: #FFD700; /* Yellow */
+            color: #FF0000; /* Red */
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        
+        #box3 {
+            background-color: #FFA07A; /* Light Orange */
+            color: #0000FF; /* Blue */
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        }
+        
+        .footer-space {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic Formatting using Inline CSS</h1>
+    
+    <div class="container">
+        <div class="box" id="box1">
+            <p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document view by choosing a look for the selected text from the Quick Styles gallery.</p>
+        </div>
+        
+        <div class="box" id="box2">
+            <p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document view by choosing a look for the selected text from the Quick Styles gallery.</p>
+        </div>
+        
+        <div class="box" id="box3">
+            <p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document view by choosing a look for the selected text from the Quick Styles gallery.</p>
+        </div>
+    </div>
+    
+    <div class="footer-space"></div>
+</body>
+</html>
